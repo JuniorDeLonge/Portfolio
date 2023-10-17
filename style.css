@@ -1,8 +1,14 @@
 body {
     background-color: chartreuse;
+    font-family: cursive;
 }
 
 h1 {
     font-size: 50;
     color: crimson;
+}
+
+p {
+    color: chocolate;
+    font-size: 15;
 }
