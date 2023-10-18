@@ -65,8 +65,8 @@ main {
 img {
     background: url("iconlogo.png") no-repeat center center;
     background-size: cover;
-    height: 45px;
-    width: 45px;
+    height: 3rem;
+    width: 3rem;
 }
 
 
@@ -98,10 +98,10 @@ img {
 }
 
 .mobile-menu div {
-    width: 32px;
-    height: 2px;
+    width: 33px;
+    height: 8px;
     background: #00c9db;
-    margin: 8px;
+    margin: 4px;
     transition: 0.3s;
     cursor: pointer;
 }
