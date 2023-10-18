@@ -15,7 +15,7 @@ body {
 /* Works on Firefox */
 * {
     scrollbar-width: thin;
-    scrollbar-color: #c6dbdb #202020;
+    scrollbar-color: #00c9db #202020;
 }
 
 /* Works on Chrome, Edge, and Safari */
@@ -28,7 +28,7 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #c6dbdb;
+    background-color: #00c9db;
     border-radius: 20px;
     border: 3px solid #202020;
 }
@@ -61,6 +61,14 @@ main {
     background-size: cover;
     height: 92vh;
 }
+
+img {
+    background: url("iconlogo.png") no-repeat center center;
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+}
+
 
 .nav-list {
     list-style: none;
@@ -95,6 +103,7 @@ main {
     background: #00c9db;
     margin: 8px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .nav-list.active {
